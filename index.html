@@ -1,0 +1,284 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8" />
+    <title>CV – Cybersécurité | Thomas Capelle</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;800&family=Source+Code+Pro:wght@400;600&display=swap" rel="stylesheet" />
+</head>
+<body>
+     <button id="backToTop" title="Revenir en haut">
+    <svg width="24" height="24" viewBox="0 0 24 24" fill="none">
+        <path d="M12 4L12 20" stroke="#fff" stroke-width="3" stroke-linecap="round"/>
+        <path d="M5 11L12 4L19 11" stroke="#fff" stroke-width="3" stroke-linecap="round"/>
+    </svg>
+</button>
+
+
+    <!-- BACKGROUND ANIMÉ EN RONDS ROUGES / ROSE -->
+    <div class="floating-orbs">
+    <div class="orb orb1"></div>
+    <div class="orb orb2"></div>
+    <div class="orb orb3"></div>
+    <div class="orb orb4"></div>
+    <div class="orb orb5"></div>
+</div>
+
+<!-- Zone invisible pour déclencher l'apparition de la barre -->
+    <div class="topbar-hover-zone"></div>
+
+    <header class="topbar">
+        <div class="logo">
+            <span class="logo-lock">🔐</span>
+            <span class="logo-text">Curriculum Vitae</span>
+        </div>
+        <nav class="nav-links">
+            <a href="#about">Profil</a>
+            <a href="#skills">Compétences</a>
+            <a href="#experience">Expériences</a>
+            <a href="#education">Formation</a>
+            <a href="#contact">Contact</a>
+        </nav>
+    </header>
+
+    <main>
+        <!-- HERO -->
+        <section id="about" class="section hero">
+            <div class="hero-text">
+                <p class="hero-tag">BTS CIEL • Cybersécurité & Réseaux</p>
+                <h1>Thomas<br>Capelle</h1>
+                <p class="hero-sub">
+                    Actuellement en préparation d’un <strong>BTS CIEL</strong> à Ingetis, je recherche un
+                    <strong>poste de technicien en cybersécurité</strong> en alternance
+                    (<strong>3 jours en entreprise / 2 jours en école</strong>).
+                    <br><br>
+                    Mes expériences en management et relation client me permettent d’apporter rigueur,
+                    gestion du stress et sens du service au sein d’une équipe sécurité.
+                </p>
+                <div class="hero-buttons">
+                    <a href="#experience" class="btn primary">Voir mon parcours</a>
+                    <a href="#contact" class="btn ghost">Me contacter</a>
+                </div>
+                <div class="hero-tags">
+                    <span>#Cybersécurité</span>
+                    <span>#HTML et CSS</span>
+                    <span>#Utilisation IA</span>
+                    <span>#Python</span>
+                </div>
+            </div>
+
+            <div class="terminal-card">
+                <div class="terminal-header">
+                    <span class="dot red"></span>
+                    <span class="dot yellow"></span>
+                    <span class="dot green"></span>
+                    <span class="terminal-title">thomas@bts-ciel: ~</span>
+                </div>
+                <div class="terminal-body">
+                    <p><span class="prompt">></span> whoami</p>
+                    <p class="output">Étudiant BTS CIEL – Cybersécurité & Réseaux</p>
+
+                    <p><span class="prompt">></span> objective --role</p>
+                    <p class="output">Technicien cybersécurité en alternance (3j entreprise / 2j école)</p>
+
+                    <p><span class="prompt">></span> skills --short</p>
+                    <p class="output">Réseaux, systèmes, Microsoft 365, Python (débutant), gestion d’équipe</p>
+
+                    <p><span class="prompt">></span> soft-skills --list</p>
+                    <p class="output">Sérieux, autonome, sens du service, gestion du stress</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- COMPÉTENCES -->
+        <section id="skills" class="section">
+            <h2>Compétences</h2>
+            <p class="section-subtitle">Techniques & humaines, en lien avec la cybersécurité.</p>
+
+            <div class="grid skills-grid">
+                <article class="card">
+                    <h3>Informatique & technique</h3>
+                    <ul>
+                        <li>Notions réseaux & cybersécurité (BTS CIEL)</li>
+                        <li>Compréhension des systèmes d’information</li>
+                        <li>Suite Microsoft (Word, Excel, PowerPoint)</li>
+                        <li>Python & Visual Studio : débutant</li>
+                    </ul>
+                </article>
+
+                <article class="card">
+                    <h3>Cybersécurité (orientation)</h3>
+                    <ul>
+                        <li>Intérêt fort pour la sécurité des SI</li>
+                        <li>Sensibilisation aux menaces (phishing, smishing, etc.)</li>
+                        <li>Logique de diagnostic & résolution d’incidents</li>
+                        <li>Veille sur les bonnes pratiques de sécurité</li>
+                    </ul>
+                </article>
+
+                <article class="card">
+                    <h3>Management & relation client</h3>
+                    <ul>
+                        <li>Accueil client, gestion des litiges</li>
+                        <li>Organisation des plannings & des équipes</li>
+                        <li>Gestion des stocks et des priorités</li>
+                        <li>Travail sous pression</li>
+                    </ul>
+                </article>
+
+                <article class="card">
+                    <h3>Langues</h3>
+                    <ul>
+                        <li>Français : natif</li>
+                        <li>Anglais : courant</li>
+                        <li>Espagnol : scolaire</li>
+                    </ul>
+                </article>
+            </div>
+        </section>
+
+        <!-- EXPÉRIENCES -->
+        <section id="experience" class="section">
+            <h2>Expériences professionnelles</h2>
+            <p class="section-subtitle">Un parcours terrain utile pour la cybersécurité (gestion du stress, responsabilités, contact humain).</p>
+
+            <div class="grid projects-grid">
+                <article class="card project-card">
+                    <span class="badge">2024–2025</span>
+                    <h3>Manager en restauration – Carla’s Coffee</h3>
+                    <p>
+                        Gestion du point de vente, accueil client, organisation des plannings et
+                        coordination de l’équipe.
+                    </p>
+                </article>
+
+                <article class="card project-card">
+                    <span class="badge">2022–2023</span>
+                    <h3>Manager en restauration – Sushi Soba</h3>
+                    <p>
+                        Encadrement des équipes, suivi des stocks et livraisons, gestion simple de la
+                        comptabilité.
+                    </p>
+                </article>
+
+                <article class="card project-card">
+                    <span class="badge">2019–2021</span>
+                    <h3>Service & livraison – Carla’s Coffee</h3>
+                    <p>
+                        Prise de commandes, service client et livraisons. Développement d’un très bon
+                        relationnel et d’une bonne résistance au stress.
+                    </p>
+                </article>
+            </div>
+        </section>
+
+        <!-- FORMATION -->
+        <section id="education" class="section">
+            <h2>Formation</h2>
+            <div class="timeline">
+                <div class="timeline-item">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-content">
+                        <span class="timeline-date">2025 – en cours</span>
+                        <h3>BTS CIEL – Ingetis (Paris)</h3>
+                        <p>Cybersécurité, informatique et réseaux. Objectif : technicien cybersécurité.</p>
+                    </div>
+                </div>
+
+                <div class="timeline-item">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-content">
+                        <span class="timeline-date">2021</span>
+                        <h3>Formation création & design de site web – CNED</h3>
+                    </div>
+                </div>
+
+                <div class="timeline-item">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-content">
+                        <span class="timeline-date">2020</span>
+                        <h3>1ère année BTS SIO – CNED</h3>
+                    </div>
+                </div>
+
+                <div class="timeline-item">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-content">
+                        <span class="timeline-date">2017</span>
+                        <h3>Bac STMG – Option Marketing</h3>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- CONTACT -->
+        <section id="contact" class="section">
+            <h2>Contact</h2>
+            <p class="section-subtitle">
+                Intéressé(e) par mon profil pour un poste de technicien cybersécurité en alternance ?
+            </p>
+
+            <div class="contact-grid">
+                <div class="card contact-card">
+                    <h3>Coordonnées</h3>
+                    <ul>
+                        <li>Thomas Capelle</li>
+                        <li>Paris (75017)</li>
+                        <li>Tél : <a href="tel:+33786451745">07 86 45 17 45</a></li>
+                        <li>Email : <a href="mailto:thomas.capelle.pro@gmail.com">thomas.capelle.pro@gmail.com</a></li>
+                    </ul>
+                </div>
+
+                <div class="card contact-card">
+                    <h3>Centres d’intérêt</h3>
+                    <ul>
+                        <li>Jeux vidéo, musique, art</li>
+                        <li>Voyages : Angleterre, Canada</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <p>© 2025 – Thomas Capelle • CV Cybersécurité & Réseaux</p>
+    </footer>
+<script>
+  const btn = document.getElementById('backToTop');
+
+  window.addEventListener('scroll', () => {
+    if (window.scrollY > 300) {
+      btn.classList.add('show');
+    } else {
+      btn.classList.remove('show');
+    }
+  });
+
+  btn.addEventListener('click', () => {
+    window.scrollTo({
+      top: 0,
+      behavior: 'smooth'
+    });
+  });
+</script>
+<script>
+    const btn = document.getElementById('backToTop');
+
+    window.addEventListener('scroll', () => {
+        if (window.scrollY > 300) {
+            btn.classList.add('show');
+        } else {
+            btn.classList.remove('show');
+        }
+    });
+
+    btn.addEventListener('click', () => {
+        window.scrollTo({
+            top: 0,
+            behavior: 'smooth'
+        });
+    });
+</script>
+</body>
+</html>
